@@ -7,24 +7,46 @@
     <link href="./CSS/style.css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Escolha Aleatória de Nome</h1>
 
-    <label for="nome">Nome:</label>
-    <input type="text" id="nome">
-    <button onclick="adicionarNome()">Adicionar Nome</button>
-    <button onclick="escolherNome()">Escolher Nome</button>
-    <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-        <label class="form-check-label" for="flexCheckDefault">
-          Remover nome
-        </label>
+    <div class="container">
+      <h1>Escolha Aleatória de Nome</h1>
+
+      <div class="box">
+        <div>
+          <label for="nome" style="font-size: 1em; font-weight: 600;">Nome:</label>
+          <input type="text" id="nome" style="border-radius: 7px; width: 90%;height: 30px">
+        </div>
+
+
+        <div class="opcoes">
+          <button onclick="adicionarNome()" >Adicionar Nome</button>
+          <button onclick="escolherNome()">Escolher Nome</button>
+        </div>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+              Remover nome após ele ganhar.
+            </label>
+        </div>
+
+        <div style="align-self: flex-start;">
+          <h3>Nomes no Sorteio Atual:</h3>
+          <ul id="listaNomes"></ul>
+      
+          <h2 id="resultado"></h2>
+        </div>
+    
+          
+
+
       </div>
 
 
-    <h3>Nomes adicionados:</h3>
-    <ul id="listaNomes"></ul>
+    </div>
 
-    <h2 id="resultado"></h2>
+
+
 
 
     <script src="./Script/js.js"></script>

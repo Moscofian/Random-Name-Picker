@@ -1,0 +1,63 @@
+body{
+    background-image: url("../img/background.jpg");
+    background-color: black;
+    background-repeat: repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    color: #cdc4d4;
+    text-shadow: 1px 1px 3px black;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    color: white;
+}
+
+.box{
+    background-color: #17131b;
+    border-radius: 25px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.opcoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin: 10px;
+    color: white;
+}
+
+.opcoes button{
+    color: black;
+    background-color: #cdc4d4;
+    border-radius: 7px;
+    font-size: 1em;
+    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.opcoes button:hover{
+    color: white;
+    background-color: #100d12;
+    border-radius: 7px;
+    font-size: 1em;
+    transform: scale(1.1);
+}
+
+#listaNomes{
+    font-size: 1.4em;
+}
+
+
