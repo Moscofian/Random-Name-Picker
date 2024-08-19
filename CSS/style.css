@@ -106,3 +106,9 @@ h1{
   #switchLabel {
 
   }
+
+  .form-check{
+    display: flex;
+    justify-content: space-around;
+    gap: 10%;  
+  }
