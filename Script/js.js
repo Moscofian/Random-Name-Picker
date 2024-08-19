@@ -41,7 +41,7 @@ const inputBox = document.getElementById('nome');
     } else {
          let indiceAleatorio = Math.floor(Math.random() * nomes.length);
          document.getElementById('resultado').innerText = "Nome escolhido: " + nomes[indiceAleatorio];
-        if(flexCheckDefault.checked == true){
+        if(flexSwitchCheckDefault.checked == true){
             nomes.splice(indiceAleatorio, 1);
         }
         atualizarLista();
