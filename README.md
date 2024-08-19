@@ -19,3 +19,7 @@ João Vitor Yoneyama
 [![Github](https://img.shields.io/badge/GitHub-Moscofian?style=flat&logo=github&labelColor=gray&color=blue&link=https%3A%2F%2Fgithub.com%2FMoscofian
 )](https://github.com/Moscofian)
 Lucas Moscofian Gimenez
+
+[![Github](https://img.shields.io/badge/Github-github?style=flat&logo=github&logoColor=white&labelColor=grey&color=blue&link=https%3A%2F%2Fgithub.com%2FMayconcabral1196
+)](https://github.com/Mayconcabral1196)
+Maycon Cabral
